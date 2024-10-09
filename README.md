@@ -1,27 +1,51 @@
-# AngularBlog
+# Angular 8 SPA с REST API Firebase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
+Проект был создан на базе [Angular CLI](https://github.com/angular/angular-cli) версии 8.3.29.
 
-## Development server
+## Обзор проекта
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Это одностраничное приложение (SPA), созданное на Angular 8, которое взаимодействует с базой данных Firebase через REST API. Проект состоит из двух основных разделов:
 
-## Code scaffolding
+	•	Главная страница: Отображает список постов.
+	•	Cтраница поста: Отображает пост по ID.
+	•	Страница администрирования: Позволяет администратору управлять постами (добавлять, редактировать, удалять).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Функции
 
-## Build
+	•	Одностраничное приложение (SPA) на Angular 8.3.29.
+	•	Интеграция с базой данных Firebase через REST API.
+	•	Страница администрирования для управления постами (CRUD операции).
+	•	Главная страница для отображения постов.
+	•	Адаптивный дизайн.
+	•	Развернуто и доступно онлайн.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Страницы
 
-## Running unit tests
+1.	Главная страница:
+Отображает список постов, полученных из базы данных Firebase.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2.	Страница администрирования:
+Позволяет авторизованным пользователям:
+	•	Добавлять новые посты
+	•	Редактировать существующие посты
+	•	Удалять посты
+Для доступа к странице администрирования перейдите по следующему URL:
+### https://angular-blog-43528.web.app/admin
+Для входа используйте следующие данные:
+	•	Email: admin@mail.ru
+	•	Пароль: 123456
 
-## Running end-to-end tests
+## Deploy
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Проект развернут и доступен по ссылке:
+### https://angular-blog-43528.web.app
 
-## Further help
+## Используемые технологии
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+	•	Angular 8.3.29
+	•	Firebase (REST API для базы данных)
+	•	Angular CLI
+	•	HTML5/SCSS
+	•	TypeScript
+
+ Проект был создан для изучения технологий Angular,
